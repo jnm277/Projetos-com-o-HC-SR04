@@ -1,5 +1,5 @@
- const int trigger = 10;  // emite o sinal
- const int echo = 11; // recebe o sinal
+ const int trigger = 11;  // emite o sinal
+ const int echo = 10; // recebe o sinal
 
 void setup() {
   pinMode(trigger, OUTPUT);
