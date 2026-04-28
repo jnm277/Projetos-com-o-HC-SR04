@@ -1,8 +1,8 @@
 int buzzer = 9;
 int treshold = 70;
 // pinos ligados ao sensor
- const int trigger = 10;  // emite o sinal
- const int echo = 11; // recebe o sinal
+ const int trigger = 11;  // emite o sinal
+ const int echo = 10; // recebe o sinal
 
 void setup() {
   pinMode(buzzer, OUTPUT);
